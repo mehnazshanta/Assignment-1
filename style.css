@@ -2,61 +2,171 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-
-
-}
-
-.heading {
-    padding-left: 20%;
-    color: white
-}
-
-.background {
-    position: relative;
+.banner-img {
+    background-image: url(images/donation13.jpg);
+    -webkit-background-size: cover;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-position: center center;
     background-size: cover;
-    top: 0px;
-    z-index: -1;
-    /* background-size: cover; */
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-    width: 100%;
-    height: 50px;
-    margin-top: 35px;
-    margin-bottom: 65px;
-}
-
-.top-heading {
-    background: url(images/donation13.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
     background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    width: 100%;
+    height: 1000px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 5; */
     text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-weight: 600
 }
 
 .link-btn {
     text-decoration: none;
-    background-image: linear-gradient(red, tomato);
-    padding: 15px 50px;
+    background-color: tomato;
+    padding: 20px 40px;
     border-radius: 5px;
     color: white;
+    font-size: 20px;
     font-weight: 800;
-    margin-top: 20px;
 
 }
 
-.second-sec {
-    padding: 250px;
-    color: black;
-    padding-left: 20%;
+.second-sec h1 {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
 
+}
+
+.second-sec h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(162, 162, 162);
 }
 
 .tk {
     display: flex;
-    word-spacing: 2em;
+
+
+}
+
+.tk h1 {
+    background-color: rgb(247, 238, 238);
+    padding: 60px;
+    margin-left: 10%;
+    font-weight: 800px;
+    font-size: 30px
+}
+
+.special-tk {
+    color: red;
+    /* border-color: blueviolet; */
+
+}
+
+.third-sec h1 {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.third-sec a {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 45%;
+
+
+}
+
+.third-sec h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.third-sec h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(162, 162, 162);
+    padding: 10px;
+    margin: 60px;
+}
+
+.fourth-sec h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.fourth-sec h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(162, 162, 162);
+    padding: 10px;
+    margin: 60px;
+
+}
+
+.fourth-sec {
+    display: flex;
+    padding: 40px;
+    gap: 15px;
+
+}
+
+.fourth-sec img {
+    padding: 70px;
+
+
+}
+
+.food {
+    background-color: rgb(212, 239, 248);
+
+}
+
+.shelter {
+    background-color: rgb(251, 241, 228);
+}
+
+.education {
+    background-color: rgb(227, 251, 227);
+}
+
+footer h3 {
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    color: white;
 }
